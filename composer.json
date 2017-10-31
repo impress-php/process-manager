@@ -1,0 +1,24 @@
+{
+    "name": "impress-php/process-manager",
+    "description": "php process manager library",
+    "keywords": ["fork", "process", "manager", "impress-php", "process-manager"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yaolong",
+            "email": "mail@yaolong.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-pcntl": "*",
+        "ext-posix": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Impress\\ProcessManager\\": "src"
+        }
+    }
+}
